@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #26262B;
+}
+/*Nav bar section*/
+.nav-bar_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.nav-bar_end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 40px;
+}
+
+.nav-bar_end h3, .border_b {
+    border-radius: 30px;
+    background-color: #1E1F21;
+    padding: 12px 16px;
+}
+
+/* Introducing wallet section*/
+.box {
+    display: flex;
+    padding: 30px 50px;
+    color: white;
+    display: flex;
+}
+
+.box_center {
+    justify-content: center;
+    padding-bottom: 230px;
+}
+
+.box_left {
+    width: 50%;
+}
+
+.box_left .box_left_access {
+    font-size: 72px;
+}
+
+.box_left_em {
+    display: flex;
+    gap: 20px;
+}
+
+.box_right {
+    width: 30%;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+}
+
+.box_right .image3 {
+  position: absolute;
+  /*
+  border: 1px red solid;
+  */
+  top: 100px;
+  left: 34px;
+  z-index: 2;
+}
+
+.box_right .image2 {
+    position: absolute;
+    /*
+    border: 1px green solid;
+    */
+    z-index: 1;
+}
+
+.box_right .image1 {
+    z-index: 3;
+    position: absolute;
+    top: 60px;
+    left: -36px;
+}
+
+.box_left .border_w {
+    border-radius: 30px;
+    background-color: #26262B;
+    padding: 12px 16px;
+    border: 1px solid #6D6D6D;
+}
+
+.box_left h1 {
+    padding-top: 35px;
+}
+
+.box_left_p {
+    position: relative;
+    float: inline-end;
+    top: 0;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.box_left img {
+    position: absolute;
+    top: -10px;
+    left: 180px;
+    width: 33%;
+}
+
+
+/*Features bar section*/
+.features-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-bar_link ul {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 16px;
+    border: 1px solid #6D6D6D;
+}
+
+.features-bar_link .elms {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.vector-2 img {
+    padding-left: 20px;
+}
+
+.vector-5 {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.vector-6 {
+    position: absolute;
+    top: 5px;
+    left: -30px;
+}
+
+.vector-7 {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+}
+
+.features-bar_link span {
+    border-radius: 30px;
+    background-color: black;
+    padding: 12px 30px;
+    border: 1px solid #6D6D6D;
+    color: white;
+}
+
+.features-bar_link li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.vector-4 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.vector-4 img {
+    position: absolute;
+    top: -80px;
+    left: 370px;
+}
+
+/* Automation section*/
+.automate-text h1 {
+    text-align: center;
+    color: white;
+    font-size: 72px;
+}
+
+.automate-text p {
+    padding-top: 15px;
+    opacity: 0.6;
+    text-align: center;
+    color: #6D6D6D;
+}
+
+.automate-text p span {
+    font-weight: bold;
+}
+
+.automate-box {
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 50px;
+
+}
+
+.automate-box .cards {
+    height: 250px;
+    padding: 30px;
+    width: 25%;
+    background: #1E1F21;
+    margin-bottom: 10px;
+}
+
+.automate-box .cards h2 {
+    font-size: 18px;
+    color: white;
+}
+
+.automate-box .cards p {
+    color: #6D6D6D;
+    margin-top: 20px;
+}
+
+.automate-box .cards img {
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+/* To do section*/
+.to-do {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.to-do_list h2 {
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+/* curved image surface section*/
+.curved-image {
+    text-align: end;
+    position: relative;
+}
+
+/* Section on connect card */
+.connect-card {
+    padding: 12px 90px;
+}
+
+.connect-card_pad {
+    background: #1E1F21;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.connect-card_h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.connect-card_h3 .send-h3 {
+    padding: 10px;
+    border-bottom: 1px solid #5E55FF;
+    width: 25%;
+    text-align: center;
+}
+
+.connect-card_h3 .funds-h3 {
+    padding: 10px;
+    border-bottom: 1px solid;
+    width: 25%;
+    text-align: center;
+}
+
+.connect-card_box {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    padding-top: 70px;
+    gap: 50px;
+}
+
+.connect-card_box h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.connect-card_box p {
+    line-height: 20px;
+    padding-bottom: 18px;
+    padding-top: 5px;
+    color: #6D6D6D;
+
+}
+
+.connect-card_box_left #border-b {
+    border-radius: 30px;
+    background-color: #26262B;
+    padding: 12px 16px;
+    color: white;
+    width: 50%;
+}
+
+/*Ach E wallet section*/
+.ach-wallet {
+    color: white;
+}
+
+.ach-wallet_text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#6D6D6D;
+    gap: 15px;
+}
+
+.ach-wallet_text img {
+    border-radius: 30px;
+}
+
+.ach-wallet_box_text h1 {
+    font-size: 72px;
+}
+
+.ach-wallet_box_text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #6D6D6D;
+}
+
+.ach-wallet_box_img {
+    padding-bottom: 30px;
+}
+
+.ach-wallet_box_text .text_border {
+    border-radius: 30px;
+    background-color: #26262B;
+    padding: 12px 16px;
+    color: white;
+    width: max-content;
+}
+
+.ach-wallet_bg1 {
+    background-image: url(./images/Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 50px;
+}
+
+.ach-wallet_bg2 {
+    background-image: url(./images/Ellipse\ 4.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.ach-wallet_bg3 {
+    background-image: url(./images/Ellipse\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.ach-wallet_box {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+/*Footer section */
+footer {
+    background-color: #1E1F21;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer_global  {
+    text-align: center;
+    color:#6D6D6D;
+    padding-top: 30px;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.footer_box_brand {
+    padding-left: 30px;
+}
+
+hr{
+    height: 2px;
+    background: #6D6D6D;
+    border: none;
+
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-info .contact-info_elm img {
+    padding-bottom: 25px;
+}
+
+.contact-info_elm {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.contact-info_elm p  {
+    line-height: 28px;
+}
+
+.contact-info_elm ul li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.contact-info_elm ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info_elm_media img {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.contact-info_elm1 {
+    padding-bottom: 35px;
+}
+
+.contact-info_elm form {
+    display: flex;
+    padding-top: 30px;
+}
+
+.contact-info_elm form input {
+    background-color: black;
+    border: black;
+    outline: 0;
+    color: white;
+    padding-left: 15px;
+}
+
+.contact-info_elm .form-get p {
+    background-color: #26262B;
+    border: black;
+    width: 20%;
+    padding: 10px;
+}
+
+.contact-info_bm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-info_bm p {
+    justify-self: end;
+}
+
+/*Responsiveness on Mobile*/
+@media (max-width: 426px) {
+    .nav-bar_link {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .nav-bar_end {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .nav-bar_link p {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .box_center {
+        flex-direction: column;
+    }
+
+    .box_left {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .box_left p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box_left p span {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
+    .box_left .border_w {
+        padding: 18px 16px;
+    }
+
+    .box_left .box_left_access {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .box_left_em {
+        flex-direction: column;
+    }
+
+    .box_right {
+        padding-bottom: 18rem;
+    }
+
+    .box_right .image1 {
+        top: 11px;
+        left: -45px;
+    }
+
+    .box_right .image2 {
+        height: 41vh;
+    }
+
+    .box_right .image3 {
+        height: 55vh;
+        top: 90px;
+        left: 9px;
+    }
+
+    .footer_box {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .features-bar_link ul {
+        flex-direction: column;
+    }
+
+    .vector-4 img {
+        top: 0px;
+        left: 0px;
+    }
+
+    .vector-3 {
+        position: relative;
+    }
+
+    .vector-3 img {
+        position: absolute;
+        bottom: -86px;
+        left: 126px;
+    }
+
+    .vector-2 img {
+        position: relative;
+        top: -112px;
+    }
+
+    .features-bar {
+    display: block;
+    padding: 56px;
+}
+
+    .features-bar_link li{
+        padding-right: 0px;
+        padding-bottom: 1.5rem
+    }
+
+    .automate-text h1 {
+        font-size: 35px;
+        padding-top: 80px;
+    }
+
+    .automate-box {
+        flex-direction: column;
+    }
+
+    .automate-box .cards {
+        width: 80%;
+        height: 270px;
+    }
+
+    .to-do_list h2 {
+        padding: 30px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .connect-card {
+        padding: 0px 0px;
+    }
+
+    .connect-card_box h1 {
+        font-size: 20px;
+    }
+
+    .connect-card_pad {
+        padding: 25px;
+    }
+
+    .connect-card_box {
+        flex-direction: column;
+    }
+
+    .connect-card_h3 .funds-h3 {
+        width: 62%;
+    }
+
+    .connect-card_h3 .send-h3 {
+        width: 46%;
+    }
+
+    .connect-card_box_left {
+        text-align: -webkit-center;
+    }
+    
+    .connect-card_box_left #border-b {
+        width: 70%;
+        padding: 17px 16px;
+    }
+
+    .connect-card_box_right img {
+        width: -webkit-fill-available;
+    }
+
+    .ach-wallet_box {
+        flex-direction: column;
+    }
+    
+    .ach-wallet_box_text {
+        text-align: -webkit-center;
+        padding-bottom: 3rem;
+    }
+
+    .ach-wallet_box_text h1 {
+        font-size: 30px;
+    }
+
+    .ach-wallet_box_img img {
+        height: 50vh;
+        padding: 20px;
+    }
+
+    .ach-wallet_text {
+        display: grid;
+    }
+
+    .footer_box_brand {
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info_elm {
+        text-align: center;
+    }
+
+    .contact-info_bm {
+        flex-direction: column;
+        line-height: 27px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) {
+   
+    .box_left .border_w {
+
+    }
+}
+/*
+@media (max-width: 700px) {
+    .nav-bar_link img {
+        justify-content: center;
+    }
+}
+
+*/
