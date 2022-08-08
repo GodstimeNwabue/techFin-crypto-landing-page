@@ -549,16 +549,18 @@ hr{
     }
 
     .box_right .image1 {
+        
         top: 11px;
-        left: -45px;
+        height: 15vh;
+        left: -33px;
     }
 
     .box_right .image2 {
-        height: 41vh;
+        height: 39vh;
     }
 
     .box_right .image3 {
-        height: 55vh;
+        height: 50vh;
         top: 90px;
         left: 9px;
     }
