@@ -2,7 +2,8 @@
 
 ## Welcome! 👋
 
-![screencapture-127-0-0-1-5500-2022-07-23-14_26_29](https://user-images.githubusercontent.com/57639474/183329555-1bc188a9-8ab0-4c2c-b7f1-92852cbb39a4.png)
+![screencapture-127-0-0-1-5502-2022-08-08-03_59_01](https://user-images.githubusercontent.com/57639474/183330103-7e2de22b-a2dc-4146-a2fd-4fe87461e1f8.png)
+
 
 
 Thanks for checking out this front-end coding challenge.
